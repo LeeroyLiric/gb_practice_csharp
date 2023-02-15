@@ -11,7 +11,7 @@ class task_1_class : task_class
         
     }
 
-    private static int CheckMax(int first, int second)
+    private static void CheckMax(int first, int second)
     {
         if (first > second)
         {
@@ -19,11 +19,11 @@ class task_1_class : task_class
         }
         else if (first < second)
         {
-            return second;
+            Console.WriteLine($"Первое число {first} - меньшее, второе число {second} - большее");
         }
         else
         {
-            return first;
+            Console.WriteLine($"Оба числа {first} {second} равны");
         }
     }
 }
