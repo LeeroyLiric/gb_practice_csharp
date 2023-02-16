@@ -25,10 +25,10 @@ public static class SeminarSecondClass
                     s2_FirstTaskSolution();
                     break;
                 case "13":
-                    
+                    s2_SecondTaskSolution();
                     break;
                 case "15":
-                    
+                    s2_ThirdTaskSolution();
                     break;
                 default:
                     Console.WriteLine("\nТакой задачи не существует\n");
