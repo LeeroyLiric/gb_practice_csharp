@@ -1,4 +1,7 @@
 using static ExitNotificationClass;
+using static task_2_class;
+using static task_3_class;
+using static task_4_class;
 public static class SeminarFirstClass
 {
     public static void FirstSeminarHW ()
@@ -19,13 +22,17 @@ public static class SeminarFirstClass
                     task_1_class my_first_task = new task_1_class();
                     my_first_task.solution();
                     break;
+                case "2":
+                    SecondTaskSolution();
+                    break;
+                case "3":
+                    ThirdTaskSolution();
+                    break;
+                case "4":
+                    FourthTaskSolution();
+                    break;
             }
         }
         while(!exit_flag);
-    }
-
-    private static void SecondTask()
-    {
-
     }
 }

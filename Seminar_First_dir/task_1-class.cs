@@ -11,19 +11,19 @@ class task_1_class : task_class
         
     }
 
-    private static void CheckMax(int first, int second)
+    private void CheckMax(int first, int second)
     {
         if (first > second)
         {
-            Console.WriteLine($"Первое число {first} - большее, второе число {second} - меньшее");
+            Console.WriteLine($"\nПервое число {first} - большее, второе число {second} - меньшее\n");
         }
         else if (first < second)
         {
-            Console.WriteLine($"Первое число {first} - меньшее, второе число {second} - большее");
+            Console.WriteLine($"\nПервое число {first} - меньшее, второе число {second} - большее\n");
         }
         else
         {
-            Console.WriteLine($"Оба числа {first} {second} равны");
+            Console.WriteLine($"\nОба числа {first} {second} равны\n");
         }
     }
 }
