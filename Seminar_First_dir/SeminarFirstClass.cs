@@ -7,21 +7,25 @@ public static class SeminarFirstClass
         bool exit_flag = false;
         do
         {
-            Console.WriteLine("Введите номер задачи из набора [1, 2, 3, 4]:");
             ExitNotification(notificationState);
-            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите номер задачи из набора [1, 2, 3, 4]:");
+            var number = Console.ReadLine();
             switch (number)
             {
-                case -1:
+                case "q":
                     exit_flag = true;
                     break;
-                case 1:
+                case "1":
                     task_1_class my_first_task = new task_1_class();
                     my_first_task.solution();
-                    ExitNotification(notificationState);
                     break;
             }
         }
         while(!exit_flag);
+    }
+
+    private static void SecondTask()
+    {
+
     }
 }
