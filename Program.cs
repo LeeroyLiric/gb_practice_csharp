@@ -21,6 +21,7 @@ internal class Program
                 case "1":
                     FirstSeminarHW ();
                     break;
+                /*
                 case "2":
                     break;
                 case "3":
@@ -36,6 +37,10 @@ internal class Program
                 case "8":
                     break;
                 case "9":
+                    break;
+                */
+                default:
+                    Console.WriteLine("Такого семинара не существует!\n");
                     break;
             }
         }

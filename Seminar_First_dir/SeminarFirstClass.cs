@@ -16,6 +16,9 @@ public static class SeminarFirstClass
             switch (number)
             {
                 case "q":
+                    Environment.Exit(0);
+                    break;
+                case "b":
                     exit_flag = true;
                     break;
                 case "1":
@@ -30,6 +33,9 @@ public static class SeminarFirstClass
                     break;
                 case "4":
                     FourthTaskSolution();
+                    break;
+                default:
+                    Console.WriteLine("\nТакой задачи не существует\n");
                     break;
             }
         }
