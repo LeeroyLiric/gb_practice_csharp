@@ -1,5 +1,6 @@
 ﻿using static ExitNotificationClass;
 using static SeminarFirstClass;
+using static SeminarSecondClass;
 internal class Program
 {
     
@@ -22,6 +23,7 @@ internal class Program
                     FirstSeminarHW ();
                     break;
                 case "2":
+                    SecondSeminarHW();
                     break;
                 /*
                 case "3":
