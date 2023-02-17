@@ -1,6 +1,7 @@
 ﻿using static ExitNotificationClass;
 using static SeminarFirstClass;
 using static SeminarSecondClass;
+using static SemThirdClass;
 internal class Program
 {
     
@@ -12,7 +13,7 @@ internal class Program
         do
         {   
             ExitNotification(notificationState);
-            Console.WriteLine("Введите номер семинара (1-2):");
+            Console.WriteLine("Введите номер семинара (1-3):");
             var seminarNumber = Console.ReadLine();
             switch (seminarNumber)
             {
@@ -25,9 +26,10 @@ internal class Program
                 case "2":
                     SecondSeminarHW();
                     break;
-                /*
                 case "3":
+                    ThirdSeminarHW();
                     break;
+                /*
                 case "4":
                     break;
                 case "5":
