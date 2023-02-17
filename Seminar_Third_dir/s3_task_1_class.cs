@@ -15,12 +15,16 @@ public static class s3_task_1_class
         int number = PromptClass.Prompt("Введите пятизначное число:");
         if (FiveDigitCheck(number))
         {
-
+            if(IsPalindrome(number))
+                Console.WriteLine("да");
+            else
+                Console.WriteLine("нет");
         }
         else
         {
             Console.WriteLine("Вы ввели не пятизначное число!");
         }
+
 
     }
 
@@ -30,5 +34,17 @@ public static class s3_task_1_class
             return false;
         else
             return true;
+    }
+
+    private static bool IsPalindrome(int number)
+    {
+        int firstDigit = number % 10;
+        int secondDigit = number % 100 / 10;
+        int fourthDigit = number / 1000 % 10;
+        int fifthDigit =  number / 10000;
+        if (firstDigit == fifthDigit && secondDigit == fourthDigit)
+            return true;
+        else
+            return false;
     }
 }
