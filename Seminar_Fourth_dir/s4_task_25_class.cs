@@ -14,6 +14,8 @@ static class s4_task_25_class
     public static void Solution_s4_t25()
     {
         int a = Prompt("Введите число A:");
+        int b = Prompt("Введите чилсо B:");
+        
     }
     
 }
