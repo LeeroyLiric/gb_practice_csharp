@@ -25,10 +25,10 @@ namespace gb_practice_csharp.SeminarFifthDir
                         s5_task_1_class.Solution_s5_t1();
                         break;
                     case "2":
-
+                        s5_task_2_class.Solution_s5_t2();
                         break;
                     case "3":
-
+                        s5_task_3_class.Solution_s5_t3();
                         break;
                     default:
                         Console.WriteLine("\nТакой задачи не существует\n");

@@ -29,6 +29,11 @@ namespace gb_practice_csharp.SeminarFifthDir
             Console.WriteLine(" ");
         }
 
+        /// <summary>
+        /// Заполняет массив случайными трёхзначными числами
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <returns></returns>
         public static int[] FillArray(int[] numbers)
         {
             Random rnd = new Random();
@@ -40,7 +45,10 @@ namespace gb_practice_csharp.SeminarFifthDir
         }
 
         /// <summary>
-        /// Принимает на вход массив и возвращает целочисленное число - количество чётных чисел в массиве
+        /// Считает количество чётных элементов массива
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <returns></returns>
         private static int evenCount(int[] numbers)
         {
             int count = 0;
@@ -53,6 +61,6 @@ namespace gb_practice_csharp.SeminarFifthDir
             }
             return count;
         }
-        /// </summary>
+        
     }
 }
