@@ -13,14 +13,14 @@ namespace gb_practice_csharp.SeminarFifthDir
         public static void Solution_s5_t1()
         {
             Random rnd = new Random();
-            int arrayLength = rnd.Next(100);
+            int arrayLength = rnd.Next(1, 100);
             int[] numbersList = FillArray(new int[arrayLength]);
             ArrayWrite(numbersList);
             int evens = evenCount(numbersList);
             Console.WriteLine(evens);
         }
 
-        private static void ArrayWrite(int[] numbers)
+        public static void ArrayWrite(int[] numbers)
         {   
             foreach (var num in numbers)
             {
@@ -29,7 +29,7 @@ namespace gb_practice_csharp.SeminarFifthDir
             Console.WriteLine(" ");
         }
 
-        private static int[] FillArray(int[] numbers)
+        public static int[] FillArray(int[] numbers)
         {
             Random rnd = new Random();
             for(int i = 0; i < numbers.Length; i++)
