@@ -18,7 +18,7 @@ namespace gb_practice_csharp
             do
             {
                 ExitNotification(notificationState);
-                Console.WriteLine("Введите номер семинара (1-4):");
+                Console.WriteLine("Введите номер семинара (1-5):");
                 var seminarNumber = Console.ReadLine();
                 switch (seminarNumber)
                 {
