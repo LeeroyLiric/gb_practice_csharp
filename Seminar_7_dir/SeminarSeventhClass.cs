@@ -28,7 +28,7 @@ namespace gb_practice_csharp.Seminar_7_dir
                         Seminar_7_dir.TaskSecond.Solution();
                         break;
                     case "3":
-                        
+                        Seminar_7_dir.Task_3.Solution();
                         break;
                     default:
                         Console.WriteLine("\nТакой задачи не существует\n");

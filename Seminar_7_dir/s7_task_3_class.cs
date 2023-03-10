@@ -35,17 +35,23 @@ namespace gb_practice_csharp.Seminar_7_dir
             }
 
             System.Double[] avereages = new System.Double[columns];
+            
 
             for (int j = 0, k = 0; j < columns && k < avereages.Length; j++, k++)
             {
+                System.Int32 columnSum = 0;
                 for (int i = 0; i < rows; i++)
                 {
-
-                    
-                    
+                    columnSum += intsArray[i, j];
                 }
-                
+                avereages[k] = Math.Round(Convert.ToDouble(columnSum) / rows, 2);
             }
+            Console.WriteLine("Среднее арифметическое каждого столбца:");
+            foreach (var numb in avereages)
+            {
+                Console.Write(numb.ToString() + "; ");
+            }
+            Console.WriteLine("");
         }
     }
 }
