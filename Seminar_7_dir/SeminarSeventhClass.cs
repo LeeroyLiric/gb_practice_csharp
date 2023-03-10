@@ -22,10 +22,10 @@ namespace gb_practice_csharp.Seminar_7_dir
                         exit_flag = true;
                         break;
                     case "1":
-                        Seminar_7_dir.S7_task_1_Class.Solution_S7_T1();
+                        S7_task_1_Class.Solution_S7_T1();
                         break;
                     case "2":
-                        
+                        Seminar_7_dir.TaskSecond.Solution();
                         break;
                     case "3":
                         

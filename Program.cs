@@ -43,6 +43,7 @@ namespace gb_practice_csharp
                     case "6":
                         break;
                     case "7":
+                        Seminar_7_dir.SeminarSeventhClass.SeventhSeminarHW();
                         break;
                     case "8":
                         break;
