@@ -40,7 +40,6 @@ namespace gb_practice_csharp
                     case "5":
                         SeminarFifthDir.SeminarFifthClass.FifthSeminarHW();
                         break;
-                    /*
                     case "6":
                         break;
                     case "7":
@@ -49,7 +48,6 @@ namespace gb_practice_csharp
                         break;
                     case "9":
                         break;
-                    */
                     default:
                         Console.WriteLine("Такого семинара не существует!\n");
                         break;
