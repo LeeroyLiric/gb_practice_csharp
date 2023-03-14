@@ -1,12 +1,15 @@
 namespace gb_practice_csharp.Seminar_8_dir
 {
     /// <summary>
-    /// 
+    /// Задача 1: Задайте двумерный массив.
+    /// Напишите программу, которая упорядочивает
+    /// по убыванию элементы каждой строки двумерного
+    /// массива.
     /// </summary>
     public static class TaskFirst
     {
         /// <summary>
-        /// 
+        /// Решение задача 1 семинар 8
         /// </summary>
         public static void Solution() 
         {
