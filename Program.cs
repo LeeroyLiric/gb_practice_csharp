@@ -18,7 +18,7 @@ namespace gb_practice_csharp
             do
             {
                 ExitNotification(notificationState);
-                Console.WriteLine("Введите номер семинара (1-5):");
+                Console.WriteLine("Введите номер семинара (1-9):");
                 var seminarNumber = Console.ReadLine();
                 switch (seminarNumber)
                 {
@@ -46,6 +46,7 @@ namespace gb_practice_csharp
                         Seminar_7_dir.SeminarSeventhClass.SeventhSeminarHW();
                         break;
                     case "8":
+                        Seminar_8_dir.SeminarEighthClass.EighthSeminarHW();
                         break;
                     case "9":
                         break;
