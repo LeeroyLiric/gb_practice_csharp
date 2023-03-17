@@ -49,6 +49,7 @@ namespace gb_practice_csharp
                         Seminar_8_dir.SeminarEighthClass.EighthSeminarHW();
                         break;
                     case "9":
+                        Seminar_9_dir.SeminarNinthClass.NinthSeminarHW();
                         break;
                     default:
                         Console.WriteLine("Такого семинара не существует!\n");
